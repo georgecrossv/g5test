@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel ="stylesheet" href="uot.css" /> 
+</head>
+    
+<body>
+    <section class="hero-a" style="margin-top: 0px; margin-bottom: 0px;">
+        <div class="slideshow-a" style="margin-top: 0px;">
+            <div class="item item-sme active">
+                <h2>Make An Impact. Give Back.</h2>
+                <h3>STAY CONNECTED.</h3>
+            </div>
+            <p class="more-a">
+                {% if current_user == blank %}
+        <a href="/join-our-community" class="button-a">Join Our Community</a>
+                {% else %}
+        <a href="/search?sort=" class="button-a">Search for experts</a>
+                {% endif %}
+            </p>
+        </div>
+
+
+
+        <p></p>
+        <div class="wrapper-a" style="margin-bottom: 0px;">
+
+            <header class="section-header">
+                <h2 class="hx-a">Why should SMEs join UoT?</h2>
+                <h3 class="hx-b">Join a Global Community of Subject Matter Experts</h3>
+            </header>
+
+            <div class="cta-boxes-b">
+                <article>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="72" height="72">
+                        <path d="M13,12v1a1,1,0,0,0,1,1h1a2,2,0,0,1,2,2v1a2,2,0,0,1-2,2v2H14V19a2,2,0,0,1-2-2V16h1v1a1,1,0,0,0,1,1h1a1,1,0,0,0,1-1V16a1,1,0,0,0-1-1H14a2,2,0,0,1-2-2V12a2,2,0,0,1,2-2V8h1v2a2,2,0,0,1,2,2H16a1,1,0,0,0-1-1H14A1,1,0,0,0,13,12ZM4,19.57v1.06A5.56,5.56,0,0,1,0,15c0-2.88,3.6-7.35,4.68-8.63L3,3h7L8,7H5.46C4,8.73,1,12.7,1,15A4.52,4.52,0,0,0,4,19.57ZM5.62,6H7.38l1-2H4.62ZM24,16c0,5.26-4.25,8-9.5,8S5,21.26,5,16c0-3.87,5.44-10.24,6.72-11.69L10,0h9L17.28,4.31l.65.75-.78.62L16.56,5H12.44C10.4,7.29,6,12.88,6,16c0,5.17,4.58,7,8.5,7S23,21.17,23,16a11.13,11.13,0,0,0-2-5l.78-.63C23,12.3,24,14.37,24,16ZM12.68,4h3.65l1.2-3h-6Zm7.15,5.14.78-.63c-.44-.63-.89-1.22-1.31-1.75l-.78.62C19,7.93,19.4,8.52,19.83,9.14Z" />
+                    </svg>
+
+                    <h4>More Clients</h4>
+                    <p>Enable marketing, blogging and SEO support to boost your professional profile and win clients.</p>
+                </article>
+
+                <article>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="72" height="72">
+                        <path d="M19,14a5,5,0,1,0,5,5A5,5,0,0,0,19,14Zm0,9a4,4,0,1,1,3-6.67l-3,3-1.65-1.65-.71.71L19,20.71l3.54-3.54A4,4,0,0,1,23,19,4,4,0,0,1,19,23ZM12,6A3,3,0,0,0,9,9v3h6V9A3,3,0,0,0,12,6Zm2,5H10V9a2,2,0,0,1,4,0Zm3.5-4.09L16.09,5.5l.71-.71,1.41,1.41ZM9,15h4v1H10v8H3V12H0L12,0l3.38,3.38-.71.71L12,1.41,2.41,11H4V23H9Zm12.59-4L18.91,8.33l.71-.71L24,12H20V11Z" />
+                    </svg>
+
+                    <h4>Global Professional Community</h4>
+                    <p>Join a  global community for collaboration, support and growth for your professional career.</p>
+                </article>
+
+                <article>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="72" height="72">
+                        <path d="M16,12l8-6L16,0V4H2V8H16ZM3,7V5H17V2l5.33,4L17,10V7Zm5,9H22v4H21V17H7V14L1.67,18,7,22V19h8v1H8v4L0,18l8-6Zm9,3h2v1H17Z" />
+                    </svg>
+                    <h4>Work-Life Flexibility</h4>
+                    <p>Consult when and where you want. Pick and choose clients. You have full control.</p>
+                </article>
+
+                <article>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.97 20" width="72" height="72">
+                        <path d="M17.43,6.75a.5.5,0,0,0-.88,0L13,13.88,8.45,4.78a.5.5,0,0,0-.89,0L4.7,10H.84C3.56,15.8,12,20,12,20s8.43-4.22,11.16-10H19.29ZM12,18.87C10.44,18,5.19,15,2.56,11H5a.5.5,0,0,0,.44-.26L8,6.08l4.57,9.14a.5.5,0,0,0,.89,0L17,8.06l1.54,2.69A.5.5,0,0,0,19,11h2.43C18.79,15,13.56,18,12,18.87ZM1.2,8h-1A7.41,7.41,0,0,1,0,6.5,6.51,6.51,0,0,1,12,3,6.51,6.51,0,0,1,23.82,5h-1a5.51,5.51,0,0,0-9.94-1.46,1,1,0,0,1-1.68,0A5.51,5.51,0,0,0,1,6.5,6.55,6.55,0,0,0,1.2,8ZM24,7a7.7,7.7,0,0,1-.13,1h-1A7.55,7.55,0,0,0,23,7Z" />
+                    </svg>
+                    <h4>Meaningful Projects</h4>
+                    <p>Empower others to achieve their goals. And seize the opportunity to give back with pro bono work.</p>
+                </article>
+
+                <article>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="72" height="72">
+                        <path d="M21,18a3,3,0,0,0-1.73.56l-2.32-2.32a6.48,6.48,0,0,0,.49-9l1.83-1.83a3,3,0,1,0-.71-.71L16.73,6.57a6.48,6.48,0,0,0-9,.49L6.29,5.59A3.49,3.49,0,1,0,3.5,7a3.47,3.47,0,0,0,2.09-.71L7.13,7.84a6.49,6.49,0,0,0,.44,7.89L5.88,17.42a2.5,2.5,0,1,0,.71.71l1.69-1.69a6.49,6.49,0,0,0,7.89.44l2.4,2.4A3,3,0,1,0,21,18ZM3.5,6A2.5,2.5,0,1,1,6,3.5,2.5,2.5,0,0,1,3.5,6ZM21,1a2,2,0,1,1-2,2A2,2,0,0,1,21,1ZM4.5,21A1.5,1.5,0,1,1,6,19.5,1.5,1.5,0,0,1,4.5,21ZM7,11.5A5.5,5.5,0,1,1,12.5,17,5.51,5.51,0,0,1,7,11.5ZM21,23a2,2,0,1,1,2-2A2,2,0,0,1,21,23ZM14.65,9.65l.71.71L12,13.71,9.65,11.35l.71-.71L12,12.29Z" />
+                    </svg>
+                    <h4>No Administrative Headaches</h4>
+                    <p>Complete business and back office support is included. Forget billing hassles. We make it easy.</p>
+                </article>
+
+                <article>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="72" height="72">
+                        <path d="M9.35,4.35,6,7.71,3.65,5.35l.71-.71L6,6.29,8.65,3.65ZM8.65,9.65,6,12.29,4.35,10.65l-.71.71L6,13.71l3.35-3.35ZM20,11H12v1h8ZM4.35,16.65l-.71.71L6,19.71l3.35-3.35-.71-.71L6,18.29ZM12,18h4V17H12Zm8,0V17H18v1ZM20,5H12V6h8Zm3,15a3,3,0,0,1-3,3H4a3,3,0,0,1-3-3V4A3,3,0,0,1,4,1H20a3,3,0,0,1,3,3h1a4,4,0,0,0-4-4H4A4,4,0,0,0,0,4V20a4,4,0,0,0,4,4H20a4,4,0,0,0,4-4V10H23ZM23,8h1V6H23Z" />
+                    </svg>
+                    <h4>No Business Risk</h4>
+                    <p>No more contracting, billing or accounting worries. Prompt, regular payments are a part of our process.</p>
+                </article>
+
+            </div>
+
+                <section class="blog-posts-cta">
+                    <header class="section-header">
+                        <h2 class="hx-a" id="BlogPostFeed">Why should SMEs join UoT</h2>
+                        <h3 class="hx-b">Enjoy a World of Consulting Possibilities</h3>
+                    </header>
+
+                    <div class="wrapper">
+                        <a href="#HowItWorks" itemprop="url" style="width: 30%;">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/VqnilLKrzUo?rel=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="content">
+                                <h4 itemprop="headline">How It Works</h4>
+                                <div itemprop="description">
+                                    <p style="font-size: 10pt;">Finding and engaging on-demand Subject Matter Experts with UoT is quick and easy.</p>
+                                    <p style="font-size: 10pt;"><b>Identify your project:</b>   Define your project requirements.  Search for SMEs.  Send a request to your preferred SMEs.</p>
+
+                                    <p style="font-size: 10pt;"><b>Choose an SME:</b>  Discuss your project with the SME in the secure UoT Marketplace. Then negotiate deliverables and pricing.</p>
+
+                                    <p style="font-size: 10pt;"><b>Get started:</b>   The SME joins and works with your team online or onsite. Once the project is completed, UoT releases the SME’s payment.</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" itemprop="url" style="width: 30%;">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/v6xwFDM9tNw" frameborder="0" allowfullscreen></iframe>
+                            </div>
+
+                            <div class="content">
+                                <h4 itemprop="headline">Use Your Expertise Where You Want, When You Want</h4>
+                                <div itemprop="description">
+                                    <p style="font-size: 10pt;">Whether you are eager to give back, were pushed into early retirement, or simply seeking better work-life balance, UoT gives you a powerful consulting platform and professional network to take the next step.</p>
+                                    <p style="font-size: 10pt;">Collaborate with a vibrant community of your peers.  Work on meaningful projects. Engage with great clients. Continue to make a difference with your unique knowledge and expertise.</p>
+
+                                    <p style="font-size: 10pt;">UoT enables it all.  And it simplifies your transition to consulting by handling all the business details so you can focus solely on doing what you love.</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" itemprop="url" style="width: 30%;">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/0JPAiSgvPPs" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="content">
+                                <h4 itemprop="headline">Use your Subject Matter Expertise On-Demand</h4>
+                                <h4 itemprop="headline"><b style="font-size: 12pt;">Management Consulting</b></h4>
+                                <p style="line-height: 90%;"><b style="font-size: 10pt;">Growth. Organization. Operations.</b></p>
+
+                                <p style="font-size: 10pt;">Expertise to start, grow, manage, operate and exit businesses successfully.</p>
+
+                                <p style="line-height: 90%;">
+                                    <h4 itemprop="headline"><b style="font-size: 12pt;">Information Technology</b>
+                                </p>
+                                <p style="line-height: 90%;"><b style="font-size: 10pt;">Oversight.  Decision Support.  Management.  Operations.</b></p>
+
+                                <p style="font-size: 10pt;">Expertise to use IT to achieve key business objectives.</p>
+
+                                <p style="line-height: 90%;">
+                                    <h4 itemprop="headline"><b style="font-size: 12pt;">Expertise in Critical Markets</b></h4>
+                                </p>
+                                <p style="line-height: 90%;"><b style="font-size: 10pt;">Government.   Health & Life Sciences.  Technology.</b></p>
+
+                                <p style="font-size: 10pt;">The world’s best expertise in today’s critical public sector, healthcare and IT markets. More coming.</p>
+                            </div>
+
+                        </a>
+                    </div>
+                    <p class="Buttons">
+                        <a href="/expertise" class="button-a" style="align: left;">Learn More about our Expertise</a>
+                        <!--<a href="/blog" class="button-a" style="align:center;">Visit Our Blog</a> -->
+                        <!-- <a href="/blog" class="button-a" style="align:right;">Request SME Benefits Button placeholder</a> -->
+                        {% if current_user == blank %}
+        <a href="/join-our-community" class="button-a">Join Our Community</a>
+                        {% else %}
+        <a href="/search?sort=" class="button-a">Search for experts</a>
+                        {% endif %}
+                    </p>
+                    <p>&nbsp; </p>
+
+
+                </section>
+            </div>
+    </section>
+
+
+
+
+
+
+</body>
+</html>
