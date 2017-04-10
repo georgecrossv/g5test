@@ -76,6 +76,7 @@
   <ItemGroup>
     <Content Include="business-benefits.html" />
     <Content Include="G5-test2.html" />
+    <Content Include="Sme-benefits.html" />
     <Content Include="uot.css" />
     <Content Include="Web.config" />
   </ItemGroup>
